@@ -1,0 +1,30 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+}
+
+.skills-parent {
+    max-width: 1000px;
+    width: 70%;
+}
+
+.d-flex.justify-content-center.align-items-center.m-2.img-wrapper {
+    width: 90px;
+    height: 90px;
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.skillsImg{
+    width: 70px;
+    transition: width .15s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
